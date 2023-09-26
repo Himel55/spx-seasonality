@@ -1,0 +1,7 @@
+# Limiting yfinance to 0.2.28 as 0.2.29 has an issue with downloading
+# https://github.com/ranaroussi/yfinance/issues/1694
+yfinance==0.2.28
+seaborn
+# Limiting matplotlib to 3.7 as 3.8 has issues with seaborn
+# https://github.com/mwaskom/seaborn/issues/3478
+matplotlib==3.7.1
